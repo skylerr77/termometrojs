@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 10%;
+}
+.titulo{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.contenido__central{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.datos{
+    height: 100%;
+    width: 70%;
+}
+input{
+    padding: 2%;
+}
+.entradatemp{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entradatemp__num{
+    height: 70%;
+    width: 40%;
+    font-size: 20px;
+    padding: 100%;
+}
+
+.tipo_conversion{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resultado{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__termometro{
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.info{
+    text-align:center;
+    padding-top: 5%;
+}
+
+.termometro{
+    border: 3px solid black;
+    width: 20%;
+    height: 60%;
+    margin: 5% 40%;
+    transform: rotate(180deg);
+}
+
+.mercurio{
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    transition: all 2s;
+}

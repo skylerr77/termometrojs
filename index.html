@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de temperatura</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body> 
+    <div class="container">
+        <div class="titulo">
+            <h1>CONVERTIDOR DE TEMPERATURA</h1>
+        </div>
+        <div class="contenido__central">
+            <div class="datos">
+                <div class="entradatemp">
+                    <input class="entradatemp_num" type="number" id="temp_inicial">
+                </div>
+                <div class="tipo_conversion">
+                    <div class="radio__celcius">
+                        <input type="radio" name="temp" id="k-c">
+                        <label for="f-c">F - C</label>
+                    </div>
+                    <div class="radio__farhenheit">
+                        <input type="radio" name="temp" id="c-k">
+                        <label for="c-f">C - F</label>
+                    </div>
+                </div>
+                <div class="resultado" id="temp_final">
+                    <p>Grados°</p> 
+                </div>
+                <div class="boton">
+                    <button class="btn btn-convertir" onclick="convertir()">CONVERTIR</button>
+                </div>
+            </div>
+            <div class="contenedor__termometro">
+                <p class="info">Grados°</p>    
+                <div class="termometro">
+                    <div class="mercurio" id="mercurio"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
